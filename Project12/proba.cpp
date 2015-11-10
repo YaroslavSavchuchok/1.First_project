@@ -1,6 +1,6 @@
 #include <stdio.h> // дл€ printf() и scanf()
 #include <conio.h> // дл€ _getch()
-#include <windows.h>
+#include <windows.h>//library for using
 #include <iostream>
 #include <random>
 #include <time.h>
@@ -12,7 +12,7 @@ HANDLE hConsole, hStdOut = GetStdHandle(STD_OUTPUT_HANDLE);
 
 int m_pos = 0;          // початкова позици€ меню
 int max_pos = 3;        // максимальна€ позици€ меню
-char s1[101];           // array
+char s1[101];           
 const char Number = 6;  //Number-к-ть пот€г≥в
 enum ConsoleColor
 {
@@ -71,7 +71,7 @@ int perevirka() {
 void main();
 void Dest_c(int dest) {//Dest_c = Destinationn cout льв≥в ≥вано-франк≥вськ одеса черн≥вц≥ терноп≥ль ужгород к≥ровоград запор≥жж€ черкаси в≥ниц€ полтава херсон
 	switch (dest) {
-	case 1:cout << "-Kињв";break;//1
+	case 1:cout << "-Kињв";break;//1///1
 	case 2:cout << "-Ћьвiв";break;//2
 	case 3:cout << "-Iвано-‘ранкiвськ";break;//3
 	case 4:cout << "-ќдеса";break;//4
