@@ -12,7 +12,7 @@ HANDLE hConsole, hStdOut = GetStdHandle(STD_OUTPUT_HANDLE);
 
 int m_pos = 0;          // початкова позици€ меню
 int max_pos = 3;        // максимальна€ позици€ меню
-char s1[101];
+char s1[101];           // array
 const char Number = 6;  //Number-к-ть пот€г≥в
 enum ConsoleColor
 {
